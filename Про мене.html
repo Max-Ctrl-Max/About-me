@@ -1,62 +1,100 @@
-html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Про мене</title>
-</head>
-<body>
-    <h1 style="color: blue;">Про мене</h1>
-    <p>Привіт! Мене звати [Максим]. Я люблю [ваше хобі або улюблену команду/тварину/виконавця].</p>
-    <img src="photo/your_photo.jpg" alt="Фото мене">
-    <nav>
-        <ul>
-            <li><a href="pages/contact.html">Контакти</a></li>
-            <li><a href="pages/gallery.html">Галерея</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+h1 {
+    color: yellow !important;
+}
+.class2{ color: grey; }
+ h6 { color: blue;}
+.class1{ color:rgb(0, 255, 0) }
 
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
 
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Контакти</title>
-</head>
-<body>
-    <h2 style="color: green;">Контакти</h2>
-    <p>Ви можете зв'язатися зі мною за наступними контактами:</p>
-    <ul>
-        <li>Email: <a href="mailto:your.email@example.com">my.email@gmail.com</a></li>
-        <li>Телефон: +380 *** *** ***</li>
-    </ul>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Головна</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+/* Стилі для заголовків */
+h1 {
+    color: #343a40;
+    text-align: center;
+    font-size: 2.5em;
+}
 
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    margin-top: 20px;
+}
 
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Галерея</title>
-</head>
-<body>
-    <h2 style="color: red;">Галерея</h2>
-    <p>Ось кілька фотографій, які мені подобаються:</p>
-    <img src="https://www.catster.com/wp-content/uploads/2024/01/child-petting-the-cat-on-her-lap_Karpova_Shutterstock.jpg"width="200"height="150" alt="Фото 1">
-    <img src="https://www.valleywestvets.com/sites/default/files/interesting-cat-facts.jpg" alt="Фото 2">
-    <nav>
-        <ul>
-            <li><a href="../index.html">Головна</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+.class1 {
+    color: #007bff;
+}
+
+.class2 {
+    color: #28a745;
+}
+
+.class3 {
+    color: #ffc107;
+}
+
+/* Стилі для параграфів */
+p {
+    color: #212529;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Стилі для зображень */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #007bff;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+/* Стилі для форм */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
